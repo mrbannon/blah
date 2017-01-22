@@ -1,0 +1,62 @@
+/******************************************************************************
+ * Bootstrap overrides
+ *****************************************************************************/
+table
+{
+    font-size: 12px;
+}
+
+.table>thead>tr>th
+{
+    font-weight: bolder;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: #000000;
+    color: #008dc0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.table>tbody>tr>td
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+caption
+{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0px;
+    color: #000000;
+}
+
+/******************************************************************************
+ * Custom classes
+ *****************************************************************************/
+.table>thead>tr>th.no-border
+{
+    border-bottom-width: 0px;
+}
+
+.table>thead>tr>th.super-column
+{
+    text-align: center;
+}
+
+table td.align-center
+{
+    text-align: center;
+}
+
+table td.column-issuer
+{
+    color: #008dc0;
+}
+
+p.page-title
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
