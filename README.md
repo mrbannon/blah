@@ -9,7 +9,8 @@
   
 Packages used:
   * webpack (CommonJS)
-  * Node.js/npm (ES2015 and JSX compiling)
+  * Node.js/npm
+  * Babel with associated presets (ES2015 and JSX compilation)
   * Bootstrap (styling)
   * Font Awesome (chart icon; note that I couldn't locate the exact icon as in the image)
   * React.js
