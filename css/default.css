@@ -42,6 +42,7 @@ caption
 .table>thead>tr>th.super-column
 {
     text-align: center;
+    color: #000000;
 }
 
 table td.align-center
